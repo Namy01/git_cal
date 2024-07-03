@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +17,7 @@
       width: fit-content;
       background-color: gray;
       padding: 5px 16px;
+      border-radius: 10px;
     }
     
     div {
@@ -34,6 +36,10 @@
     {
       width: 40px;
       height: 30px;
+    }
+    input:hover{
+      
+      background-color: rgba(0, 0, 0, 0.038);
     }
   </style>
   <script>
@@ -78,9 +84,9 @@
       <input type="button" value="0" onclick="cal(value)">
       <input type="button" value="/ " onclick="cal(value)">
       <input type="button" value="* " onclick="cal(value)">
-      <input type="button" value="=" onclick="cal(value)">
+      <input type="button" value="=" onclick="cal(value)"> 
+      
     </fieldset>
-  
   </form>
   </fieldset>
   
